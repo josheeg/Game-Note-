@@ -86,5 +86,41 @@ google sugjested ollama keep alive context length 16k
 
 OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=16384 ollama serve
 
-test
-i have some notes for some games id like demos of what libraries should we get ready can you run rpi reserch plan implement loops with ralph loops. 
+josheeg@josheeg:~ $ goose
+starting session | provider: ollama model: hf.co/byteshape/Qwen3-Coder-30B-A3B-Instruct-GGUF:Qwen3-Coder-30B-A3B-Instruct-Q3_K_S-2.65bpw.gguf
+    session id: 20260220_26
+    working directory: /home/josheeg
+
+goose is running! Enter your instructions, or try asking what goose can do.
+
+Context: ○○○○○○○○○○ 0% (0/128000 tokens)
+( O)> test i have some notes for some games id like demos of what libraries should we get ready can you run rpi reserch plan implement loops with ralph loops.
+
+
+### Understanding the Task
+
+Based on your request, you want to:
+
+1. Test your notes about some games and want to demonstrate what libraries you should prepare.
+2. Run a research plan related to Raspberry Pi (RPI) and implement loops using Ralph loops.
+
+Let's break this down:
+
+- You have **some notes** that relate to games, and wish to explore what **libraries** might be needed in a demo context.
+- Then, you want to proceed to **research** a Raspberry Pi (RPI) related plan and **implement loops** using **Ralph loops**.
+
+---
+
+## Step 1: Test My Notes on Game Libraries (Demonstration)
+
+Let's first inspect your current directory to understand what files you might have.
+
+### Execution Plan
+1. List files in the current directory.
+2. If any file contains notes about games or related data, view its content.
+
+
+
+⏱️  Elapsed time: 13m 33s
+Context: ○○○○○○○○○○ 2% (2500/128000 tokens)
+( O)> Press Enter to send, Ctrl-J for new line
