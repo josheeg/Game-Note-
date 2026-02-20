@@ -81,3 +81,7 @@ https://huggingface.co/byteshape/Devstral-Small-2-24B-Instruct-2512-GGUF
 ollama run hf.co/byteshape/Devstral-Small-2-24B-Instruct-2512-GGUF:Devstral-Small-2-24B-Instruct-2512-IQ4_XS-4.04bpw.gguf
 
 Devstral-Small-2-24B-Instruct-2512-IQ3_S-2.67bpw.gguf
+
+google sugjested ollama keep alive context length 16k
+
+OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=16384 ollama serve
