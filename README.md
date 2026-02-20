@@ -118,6 +118,11 @@ Let's first inspect your current directory to understand what files you might ha
 ### Execution Plan
 1. List files in the current directory.
 2. If any file contains notes about games or related data, view its content.
+3. 
+
+ OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=33000 ollama serve
+ OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=32000 ollama serve
+ OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=42000 ollama serve
 
 
 
