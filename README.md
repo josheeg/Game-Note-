@@ -129,3 +129,8 @@ Let's first inspect your current directory to understand what files you might ha
 ⏱️  Elapsed time: 13m 33s
 Context: ○○○○○○○○○○ 2% (2500/128000 tokens)
 ( O)> Press Enter to send, Ctrl-J for new line
+
+    • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=33000 ollama serve
+    • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=32000 ollama serve
+    • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=42000 ollama serve
+    • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=64000 ollama serve
