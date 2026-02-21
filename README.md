@@ -3,14 +3,17 @@ Game Note Raspberry pi 5 16gb agent coder
 
 items for setup ingredients 
     • Raspberry Pi 5 16 gb ram Mfr. #: SC1113
+
     • Wall Mount AC Adapters Raspberry Pi 5 27W USB-C Mfr. #: SC1152
-    • hdmi to 8 in touchscreen case and 🔊 speakers 🔊 todo to screen
-    • 256gb sd now m.2 compact hat 256gb ssd todo for speed. ram caching maby common for 16k context todo try more...
-    • ollama model --verbose compare devstral rpi models both byteshape tps...
+
+    • 8 Inch Touchscreen for Raspberry Pi,5-Point 1280 * 800 IPS Touchscreen Portable Monitor with HDMI Interface Dual-Speaker for Raspberry Pi 5
+
+    • Official Raspbery Pi M.2 HAT+ Compact, Designed for Raspbery Pi 5, HAT+ Standard, Supports NVMe Protocol M.2 Solid State Drive with 2230 Form Factor
+
+    • 256GB M.2 2230 SSD NVMe Gen3x4, Up to 2100MB/s，PCIe 3.0 SSD, TLC 3D NAND Flash
+
+ollama model --verbose compare devstral rpi models both byteshape tps...
     • usb microphone small and gaming usb mic compare wisper library
-    • 8 in touchscreen case with speakers
-    • m.2 compact hat ssd hat 2230 ssd
-    • ssd 256gb
 
 todo
 try different context
