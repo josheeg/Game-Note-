@@ -134,3 +134,31 @@ Context: ○○○○○○○○○○ 2% (2500/128000 tokens)
     • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=32000 ollama serve
     • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=42000 ollama serve
     • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=64000 ollama serve
+
+    josheeg@josheeg:~ $ goose
+starting session | provider: ollama model: hf.co/byteshape/Qwen3-Coder-30B-A3B-Instruct-GGUF:Qwen3-Coder-30B-A3B-Instruct-Q3_K_S-2.65bpw.gguf
+    session id: 20260220_27
+    working directory: /home/josheeg
+
+goose is running! Enter your instructions, or try asking what goose can do.
+
+Context: ○○○○○○○○○○ 0% (0/128000 tokens)
+( O)> test i have some notes for some games id like demos of what libraries should we get ready can you run rpi reserch plan implement loops with ralph loops.
+
+
+# Task Execution Plan
+
+Based on your request, I'll help you develop a research plan for Raspberry Pi and implement loops with Ralph loops. I need to first get familiar with the tools available and understand what specific tasks you'd like to accomplish.
+
+## First, let's review what tools we have available:
+
+
+─── list_functions | code_execution ──────────────────────────
+
+Ran into this error: Request failed: error sending request for url (http://localhost:11434/v1/chat/completions) (timeout).
+
+Please retry if you think this is a transient or recoverable error.
+
+⏱️  Elapsed time: 52m 43s
+Context: ○○○○○○○○○○ 2% (2349/128000 tokens)
+
