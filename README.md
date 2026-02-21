@@ -76,5 +76,9 @@ sudo systemctl stop ollama
 trying larger byteshape qwen if tool fail caused a stop
 trying opencode as a alternative
 
-
+prompt:
+make a plan to make a a game what libraries are needed 
+rpi loops
+ralph loops 
+reserch plan imliment loops
 
