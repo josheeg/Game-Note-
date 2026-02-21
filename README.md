@@ -82,6 +82,9 @@ sudo systemctl stop ollama
 trying larger byteshape qwen if tool fail caused a stop
 trying opencode as a alternative
 
+trying to take care of server client timeouts
+OLLAMA_CONTEXT_LENGTH=16384 OLLAMA_LOAD_TIMEOUT=25m OLLAMA_KEEP_ALIVE=-1 ollama serve 
+
 # **Output:**
 
 josheeg@josheeg:~ $ goose
