@@ -3,7 +3,7 @@ Game Note Raspberry pi 5 16gb agent coder
 
 items for setup ingredients 
 
-Hardware:
+**Hardware:**
 Raspberry Pi 5 16 gb ram Mfr. #: SC1113
 
 Wall Mount AC Adapters Raspberry Pi 5 27W USB-C Mfr. #: SC1152
@@ -16,18 +16,16 @@ Official Raspbery Pi M.2 HAT+ Compact, Designed for Raspbery Pi 5, HAT+ Standard
 
 usb microphone small and gaming usb mic compare wisper library
 
-Software:
+**Software:**
 ollama model --verbose compare devstral rpi models both byteshape tps…
 
 
-todo:
-
+**todo:**
 try different context
 
  OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=16000 ollama serve
 
-goose isolated environment
-
+**goose isolated environment**
 offical doc
 https://block.github.io/goose/docs/tutorials/isolated-development-environments/
 blog
@@ -43,7 +41,7 @@ https://block.github.io/goose/docs/tutorials/plan-feature-devcontainer-setup
 https://block.github.io/goose/docs/tutorials/ralph-loop
 gui
 
-commands
+**commands**
 ollama ps
 wisper voice to text
  OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=16000 ollama serve
