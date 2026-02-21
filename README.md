@@ -155,6 +155,8 @@ Based on your request, I'll help you develop a research plan for Raspberry Pi an
 
 ## First, let's review what tools we have available:
 
+https://block.github.io/goose/docs/troubleshooting/diagnostics-and-reporting/#diagnostics-system
+
 
 ─── list_functions | code_execution ──────────────────────────
 
