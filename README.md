@@ -14,7 +14,7 @@ Official Raspbery Pi M.2 HAT+ Compact, Designed for Raspbery Pi 5, HAT+ Standard
 
 256GB M.2 2230 SSD NVMe Gen3x4, Up to 2100MB/s，PCIe 3.0 SSD, TLC 3D NAND Flash
 
-Super Mini USB Computer Microphone
+Mini USB Microphone Mouser #: 485-3367
 
 **Software:**
 ollama model --verbose compare devstral rpi models both byteshape tps…
