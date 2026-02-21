@@ -135,6 +135,9 @@ Context: ○○○○○○○○○○ 2% (2500/128000 tokens)
     • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=42000 ollama serve
     • OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=64000 ollama serve
 
+
+ OLLAMA_KEEP_ALIVE=24h OLLAMA_CONTEXT_LENGTH=33000 ollama serve
+
     josheeg@josheeg:~ $ goose
 starting session | provider: ollama model: hf.co/byteshape/Qwen3-Coder-30B-A3B-Instruct-GGUF:Qwen3-Coder-30B-A3B-Instruct-Q3_K_S-2.65bpw.gguf
     session id: 20260220_27
