@@ -93,6 +93,9 @@ OLLAMA_TIMEOUT=10800 OPENAI_TIMEOUT=10800 goose session start
 # **server output**
 
 # **model status**
+josheeg@josheeg:~ $ ollama ps
+NAME                                                                                                 ID              SIZE     PROCESSOR    CONTEXT    UNTIL   
+hf.co/byteshape/Qwen3-Coder-30B-A3B-Instruct-GGUF:Qwen3-Coder-30B-A3B-Instruct-IQ3_S-2.83bpw.gguf    5130f7c6e978    11 GB    100% CPU     4096       Forever    
 
 # **issue:?**
 tool call or freeze fallowing debug logs route... 
