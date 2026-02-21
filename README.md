@@ -58,7 +58,8 @@ installed at 2. Add Custom Slash Commands….
 # **goose ralph loop feedback to rpi goose ralph loops**
 https://block.github.io/goose/docs/tutorials/plan-feature-devcontainer-setup
 https://block.github.io/goose/docs/tutorials/ralph-loop
-gui
+
+# **python ai generated arm gui when running todo**
 
 # **commands**
 
