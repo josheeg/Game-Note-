@@ -340,6 +340,19 @@ Opencode may have more gemini free options maby it cant call tools
 grock free tier
 could these settings allow kilo code to run?
 
+# **kilo code**
+**since it can create virtual enviroment..**
+**ai results check for documentation.**
+
+2. Fixing the Kilo Code "Hardcoded" TimeoutKilo Code (and its parent project, Roo Code) has historically had a 300-second (5-minute) hardcoded timeout for local LLMs. If the Raspberry Pi takes longer than 5 minutes to generate a complex code block, the plugin will "give up" even if Ollama is still working.To fix this in VS Code:Open your Command Palette (Ctrl+Shift+P).Type Preferences: Open User Settings (JSON) and press Enter.Add or update the following lines to your configuration:JSON"kilocode.requestTimeout": 10800,
+"kilocode.apiProvider": "ollama",
+"kilocode.ollama": {
+    "baseURL": "http://localhost:11434",
+    "modelId": "qwen2.5-coder:1.5b" 
+}
+(Note: Some versions of Kilo Code use kilocode.requestTimeout, while others might require you to set it under kilocode.customProvider if you are using the "Custom" provider option.)3. Hardware Reality Check (Raspberry Pi)The Raspberry Pi 5 is powerful, but running a large model through an agent plugin like Kilo Code is heavy. Kilo Code sends a lot of context (your files, terminal output, etc.), which the Pi must process before it can even start replying.Model SizePi PerformanceRecommendation1.5B - 3B~10-15 tokens/secBest for Pi. Use qwen2.5-coder:1.5b.7B - 8B~1-3 tokens/secUsable for single functions, very slow for chat.30B+ (MoE)<1 token/secLikely to cause the "Connection Lost" error in VS Code.Summary Checklist for Pi SuccessUse a smaller model: Start with qwen2.5-coder:1.5b. It is shockingly good for its size and runs fast on a Pi.Swap File: Ensure your Pi has a large swap file (at least 4GB to 8GB) to prevent Ollama from crashing.Manual Autocomplete: In Kilo Code / VS Code settings, turn off "Autocomplete on every keystroke." This prevents the Pi from being bombarded with requests while you are still typing.Would you like me to show you how to increase the swap file on your Raspberry Pi to prevent the "Out of Memory" crashes that often look like timeouts?
+
+
 OLLAMA_CONTEXT_LENGTH=16384 OLLAMA_LOAD_TIMEOUT=60m OLLAMA_KEEP_ALIVE=-1 OLLAMA_MAX_LOADED_MODELS=1 OLLAMA_NUM_PARALLEL=1 ollama serve
 
 OLLAMA_CONTEXT_LENGTH=4096 OLLAMA_LOAD_TIMEOUT=60m OLLAMA_KEEP_ALIVE=-1 OLLAMA_MAX_LOADED_MODELS=1 OLLAMA_NUM_PARALLEL=1 ollama serve
