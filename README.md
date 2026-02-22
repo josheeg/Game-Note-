@@ -89,23 +89,7 @@ OLLAMA_TIMEOUT=10800 OPENAI_TIMEOUT=10800 goose session start
 
 
 # **Output:**
-josheeg@josheeg:~ $ OLLAMA_TIMEOUT=10800 OPENAI_TIMEOUT=10800 goose session
-starting session | provider: ollama model: hf.co/byteshape/Qwen3-Coder-30B-A3B-Instruct-GGUF:Qwen3-Coder-30B-A3B-Instruct-IQ3_S-2.83bpw.gguf
-    session id: 20260221_9
-    working directory: /home/josheeg
 
-goose is running! Enter your instructions, or try asking what goose can do.
-
-Context: ○○○○○○○○○○ 0% (0/128000 tokens)
-( O)> make a plan to make a a game what libraries are needed reserch plan implement loops ralph loops reserch plan imliment loops
-
-
-Ran into this error: Request failed: error sending request for url (http://localhost:11434/v1/chat/completions) (failed to connect to localhost:11434, check that the port is correct).
-
-Please retry if you think this is a transient or recoverable error.
-
-⏱️  Elapsed time: 12m 34s
-Context: ○○○○○○○○○○ 0% (0/128000 tokens)
 
 # **server output**
 
