@@ -368,6 +368,7 @@ OLLAMA_TIMEOUT=10800 OPENAI_TIMEOUT=10800 ollama launch
 
 OLLAMA_TIMEOUT=10800 OPENAI_TIMEOUT=10800 code
 
+**Seems to have started maby settings are adjusted...?**
 
 # **prompt:**
 make a plan to make a a game what libraries are needed 
