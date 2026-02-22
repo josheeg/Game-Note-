@@ -349,6 +349,9 @@ OLLAMA_CONTEXT_LENGTH=8192 OLLAMA_LOAD_TIMEOUT=60m OLLAMA_KEEP_ALIVE=-1 OLLAMA_M
 
 OLLAMA_TIMEOUT=10800 OPENAI_TIMEOUT=10800 goose session
 
+OLLAMA_TIMEOUT=10800 OPENAI_TIMEOUT=10800 ollama launch
+
+
 
 # **prompt:**
 make a plan to make a a game what libraries are needed 
