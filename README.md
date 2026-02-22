@@ -60,6 +60,7 @@ https://block.github.io/goose/docs/tutorials/ralph-loop
 
 # **python ai generated arm gui when running todo**
 
+
 # **commands**
 
 ollama ps
@@ -79,6 +80,7 @@ OLLAMA_TIMEOUT=10800 OPENAI_TIMEOUT=10800 goose session
 try different context
 trying opencode as a alternative
 try train like openhands model specific to tools kilo code... qwen2.5 14b code... 
+qwen2.514bcoder
 
 # **trying to take care of server client timeouts**
 OLLAMA_CONTEXT_LENGTH=16384 OLLAMA_LOAD_TIMEOUT=25m OLLAMA_KEEP_ALIVE=-1 OLLAMA_MAX_LOADED_MODELS=1 OLLAMA_NUM_PARALLEL=2 ollama serve
